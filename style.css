@@ -30,6 +30,12 @@
     -ms-grid-rows: (1fr)[4];
         grid-template-rows: repeat(4, 1fr);
   }
+  .portfolio-item {
+    background-image: url("images/work-item.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    min-height: 150px;
+  }
   .portfolio-item.one {
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;

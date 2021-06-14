@@ -13,3 +13,12 @@ gsap.from(".welcome-stuff", {
   stagger: 0.2,
   ease: "back",
 });
+
+gsap.from(".portfolio-item", {
+  duration: 1,
+  y: 100,
+  opacity: 0,
+  delay: 0.25,
+  stagger: 0.2,
+  ease: "back",
+});
