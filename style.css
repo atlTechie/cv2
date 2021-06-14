@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Viaoda+Libre&display=swap");
+body,
+html {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+body {
+  background: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Viaoda Libre", cursive;
+}
+
+a,
+a.nav-link {
+  color: #b80012;
+}
+
+a:hover,
+a.nav-link:hover {
+  color: #ff061e;
+}
+
+.btn-primary {
+  background: #b80012;
+  border: 1px solid #b80012;
+}
+
+.btn-primary:hover {
+  background: #ff061e;
+  border: 1px solid #b80012;
+}
+
+.row#work-items .col-6 .bg-danger {
+  height: 200px;
+}
+
+@media (min-width: 576px) {
+  body,
+  html {
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  body,
+  html {
+    height: 100%;
+  }
+}
+
+.border-light {
+  border-color: #333 !important;
+}
+/*# sourceMappingURL=style.css.map */
