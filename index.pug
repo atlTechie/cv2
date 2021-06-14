@@ -13,21 +13,20 @@ body
 
     main.d-flex.flex-grow-1.h-100
         .container.d-flex.flex-column.h-100.justify-content-center
-            .row.align-items-center.mb-5
-             
-                        
-                .col-12.col-sm-6.text-white.order-2.order-sm-1
-                    h1.mb-3#site-headline.welcome-stuff I design and develop responsive applications that evolve and scale.
+            block screen-content
+                .row.align-items-center.mb-5      
+                    .col-12.col-sm-6.text-white.order-2.order-sm-1
+                        h1.mb-3#site-headline.welcome-stuff I design and develop responsive applications that evolve and scale.
 
-                    p.d-sm-none.d-md-block.lead.mb-4#site-welcome-msg.welcome-stuff Using my 15+ years of experience in areas that span from graphic design, web design, user interface and user interaction development, I bring a forward-thinking approach to each product and feature to create software that will delight its users.
-                    .row#site-welcome-cta.welcome-stuff 
-                        .col-6.col-sm-12.col-md-6.mb-sm-3.mb-md-0 
-                            a.btn.btn-primary.w-100(href="#") View Work 
-                        .col-6.col-sm-12.col-md-6.mb-sm-3.mb-md-0
-                            a.btn.btn-outline-light.w-100(href="#") Discuss A Project 
+                        p.d-sm-none.d-md-block.mb-4#site-welcome-msg.welcome-stuff Using my wealth of experience in areas that span from graphic design, web design, user interface and user interaction development, I bring a forward-thinking approach to each product and feature to create software that will delight its users.
+                        .row#site-welcome-cta.welcome-stuff 
+                            .col-6.col-sm-12.col-md-6.mb-sm-3.mb-md-0 
+                                a.btn.btn-primary.w-100(href="#") View Work 
+                            .col-6.col-sm-12.col-md-6.mb-sm-3.mb-md-0
+                                a.btn.btn-outline-light.w-100(href="#") Discuss A Project 
 
-                .col-8.col-sm-6.order-1.order-sm-2.text-center.mx-auto
-                    img.img-fluid#e(src="images/me3-1.png", alt="")
+                    .col-8.col-sm-6.order-1.order-sm-2.text-center.mx-auto
+                        img.img-fluid#e(src="images/me3-1.png", alt="")
 
     include includes/footer.pug
                         
