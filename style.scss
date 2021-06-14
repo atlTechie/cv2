@@ -39,22 +39,18 @@ a.nav-link {
   }
 }
 
-.row#work-items .col-6 .bg-danger {
-  height: 200px;
-}
-
 // Media Queries
 
 @media (min-width: 576px) {
   body,
   html {
-    height: auto;
+    height: 100% !important;
   }
 }
 @media (min-width: 768px) {
   body,
   html {
-    height: 100%;
+    height: 100% !important;
   }
 }
 

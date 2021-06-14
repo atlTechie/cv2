@@ -24,7 +24,8 @@
     background-image: url("images/work-item.jpg");
     background-blend-mode: multiply;
     background-size: cover;
-    min-height: 150px;
+    min-height: auto;
+    padding: 0.5em;
     &.one {
       grid-row: 1/3;
     }
