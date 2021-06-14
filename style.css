@@ -65,6 +65,12 @@
   }
 }
 
+@media (min-width: 768px) {
+  .portfolio-item {
+    min-height: 150px;
+  }
+}
+
 body,
 html {
   height: 100%;
