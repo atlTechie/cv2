@@ -15,10 +15,11 @@ gsap.from(".welcome-stuff", {
 });
 
 gsap.from(".portfolio-item", {
-  duration: 1,
-  y: 100,
-  opacity: 0,
+  duration: 0.5,
+  y: 200,
 
-  stagger: 0.2,
+  opacity: 0,
+  delay: 0.2,
+  stagger: 0.1,
   ease: "back",
 });
